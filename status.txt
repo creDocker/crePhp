@@ -12,3 +12,6 @@ Todo:
   (on 16.04: https://www.rosehosting.com/blog/install-php-7-1-with-nginx-on-an-ubuntu-16-04-vps/
              https://www.vultr.com/docs/how-to-install-and-configure-php-70-or-php-71-on-ubuntu-16-04 
   List:  apt-cache pkgnames | grep php7 )
+
+* Update 7.4 on <20.04
+https://computingforgeeks.com/how-to-install-php-on-ubuntu/

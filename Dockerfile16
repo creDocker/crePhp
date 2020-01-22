@@ -5,22 +5,24 @@
 #
 
 # Pull base image.
-FROM tamboraorg/creubuntu:0.2016
+FROM tamboraorg/creubuntu:2016.0
 MAINTAINER Michael Kahle <michael.kahle@yahoo.de> 
 
 ARG BUILD_YEAR=2016
 ARG BUILD_MONTH=0
+ARG BUILD_TAG=latest
 
 # Fixes some weird terminal issues such as broken clear / CTRL+L
 ENV TERM=linux
 ENV PHP_VERSION 7.0    
 
 LABEL Name="PHP for CRE" \
+      CRE=$CRE_VERSION \ 
       Year=$BUILD_YEAR \
       Month=$BUILD_MONTH \
       Version=$PHP_VERSION \
       OS="Ubuntu:$UBUNTU_VERSION" \
-      Build_=$CRE_VERSION 
+      Build_=$BUILD_TAG 
 
 RUN mkdir -p /cre && touch /cre/versions.txt && \
     echo "$(date +'%F %R') \t crePhp \t $PHP_VERSION " >> /cre/versions.txt

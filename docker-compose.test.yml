@@ -1,5 +1,4 @@
 sut:
-  build: .
   image: ${IMAGE_NAME}
   command: /cre/tests/php-test.sh
   volumes:

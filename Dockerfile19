@@ -5,10 +5,10 @@
 #
 
 # Pull base image.
-FROM tamboraorg/creubuntu:0.2020
+FROM tamboraorg/creubuntu:0.2018
 MAINTAINER Michael Kahle <michael.kahle@yahoo.de> 
 
-ARG BUILD_YEAR=2020
+ARG BUILD_YEAR=2019
 ARG BUILD_MONTH=0
 ARG BUILD_TAG=latest
 
@@ -33,7 +33,7 @@ RUN mkdir -p /cre && touch /cre/versions.txt && \
 #    && apt-get clean \
 #&& rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/share/doc/*
 
-## RUN add-apt-repository ppa:ondrej/php # for 7.1
+RUN add-apt-repository ppa:ondrej/php # for 7.4
 
 # Install dotdeb repo, PHP7, composer and selected extensions
 RUN apt-get update \

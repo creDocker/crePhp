@@ -15,6 +15,7 @@ ARG BUILD_TAG=latest
 # Fixes some weird terminal issues such as broken clear / CTRL+L
 ENV TERM=linux
 ENV PHP_VERSION 7.4
+#7.4.3
 
 LABEL Name="PHP for CRE" \
       CRE=$CRE_VERSION \ 

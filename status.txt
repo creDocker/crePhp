@@ -16,3 +16,7 @@ Todo:
 * Update 7.4 on <20.04  (today 7.3 - yii3 needs 7.4)
 https://computingforgeeks.com/how-to-install-php-on-ubuntu/
 then drop 0.2019
+
+* rabbitmq
+https://www.rabbitmq.com/tutorials/tutorial-one-php.html
+

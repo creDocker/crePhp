@@ -61,7 +61,8 @@ RUN apt-get update \
 #RUN apt-get -y install autoconf pkg-config php-pear
 #RUN apt-get -y install php-dev libmcrypt-dev 
 RUN pecl channel-update pecl.php.net
-RUN pecl install mcrypt-1.0.3
+#RUN pecl install mcrypt-1.0.3
+RUN apt-get -y install mcrypt
 # Added to php.ini as well....
 
 #CMD ["php", "-a"]

@@ -54,6 +54,8 @@ jobs:
         - ${{ github.workspace }}/cre/versions:/cre/versions        
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: master          
       - name: ls cre
         run: (ls -l /cre)
       - name: cat versions.txt

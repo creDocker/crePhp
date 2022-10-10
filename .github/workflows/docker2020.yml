@@ -46,4 +46,23 @@ jobs:
           push: true
           tags: tamboraorg/crephp:2020.0, tamboraorg/crephp:latest 
       
-
+  docker-run-action:
+    runs-on: ubuntu-latest
+    container:
+      image: tamboraorg/crephp:2020.0
+      volumes:
+        - ${{ github.workspace }}/cre/versions:/cre/versions        
+    steps:
+      - uses: actions/checkout@v3
+      - name: ls cre
+        run: (ls -l /cre)
+      - name: cat versions.txt
+        run: (cat /cre/versions.txt)
+#      - name: touch cre/versions/versions_2022.txt
+#        run: (touch /cre/versions/versions_2022.txt)            
+      - name: ls cre/versions
+        run: (ls -l /cre/versions)        
+#      - name: cp version.txt
+#        run: (cp /cre/versions.txt /cre/versions/versions_2022.txt)
+      - name: Submit changes       
+        uses: EndBug/add-and-commit@v9   

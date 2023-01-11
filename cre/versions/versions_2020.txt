@@ -1,0 +1,6 @@
+ creUbuntu 	 20.04.5 LTS
+  OpenSSL 1.1.1f  31 Mar 2020
+  Java 	 openjdk version "1.8.0_342"
+  Python3 	 Python 3.8.10
+ crePhp 	 7.4 
+  PHP 7.4.3 (cli) (built: Aug 17 2022 13:29:56) ( NTS )

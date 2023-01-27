@@ -5,4 +5,4 @@ creBuild 	 2023.01
   Java 	 openjdk version "1.8.0_352"
   Python3 	 Python 3.8.10
  crePhp 	 7.4 
-  PHP 7.4.3-4ubuntu2.16 (cli) (built: Sep 15 2022 22:53:21) ( NTS )
+  PHP 7.4.3-4ubuntu2.17 (cli) (built: Jan 10 2023 15:37:44) ( NTS )

@@ -1,8 +1,8 @@
-creBuild 	 2023.02
+creBuild 	 2023.03
  creUbuntu 	 18.04.6 LTS
   UbuntuName 	 bionic
   OpenSSL 1.1.1  11 Sep 2018
-  Java 	 openjdk version "1.8.0_352"
+  Java 	 openjdk version "1.8.0_362"
   Python3 	 Python 3.6.9
  crePhp 	 7.2 
-  PHP 7.2.24-0ubuntu0.18.04.16 (cli) (built: Jan 10 2023 15:47:23) ( NTS )
+  PHP 7.2.24-0ubuntu0.18.04.17 (cli) (built: Feb 23 2023 13:29:25) ( NTS )

@@ -1,12 +1,16 @@
 Todo:
 =====
-* ssmtp working -> maybe move to general container (ubuntu)
+* ssmtp working -> maybe move to general container (ubuntu) DONE
 
 * Mail: ssmtp and/or postfix and/or exim
  fetchmail & procmail
  https://binfalse.de/2016/11/25/mail-support-for-docker-s-php-fpm/
  https://hub.docker.com/r/geschke/php-fpm-swrm/dockerfile
  https://hub.docker.com/r/bigm/php-7-fpm-postfix/
+
+* gmail changed 
+https://aruljohn.com/blog/php-send-email/?utm_content=cmp-true
+https://mailtrap.io/blog/phpmailer-gmail/
 
 * Update 7.1 
   (on 16.04: https://www.rosehosting.com/blog/install-php-7-1-with-nginx-on-an-ubuntu-16-04-vps/
@@ -19,4 +23,5 @@ then drop 0.2019
 
 * rabbitmq
 https://www.rabbitmq.com/tutorials/tutorial-one-php.html
+
 

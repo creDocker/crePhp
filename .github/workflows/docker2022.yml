@@ -34,12 +34,12 @@ jobs:
         with:
           file: ./Dockerfile22
           push: true
-          tags: tamboraorg/crephp:check22
+          tags: credocker/crephp:check22
 
       -
         name: Test
         run: |
-          docker run tamboraorg/crephp:check22 /cre/php-test.sh  
+          docker run credocker/crephp:check22 /cre/php-test.sh  
       -
         name: Build and push
         id: docker_push
@@ -47,7 +47,7 @@ jobs:
         with:
           file: ./Dockerfile22
           push: true
-          tags: tamboraorg/crephp:2022.0 
+          tags: credocker/crephp:2022.0 
 
         
 

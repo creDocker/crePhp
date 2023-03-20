@@ -34,12 +34,12 @@ jobs:
         with:
           file: ./Dockerfile20
           push: true
-          tags: tamboraorg/crephp:check20 
+          tags: credocker/crephp:check20 
 
       -
         name: Test
         run: |
-          docker run tamboraorg/crephp:check20 /cre/php-test.sh   
+          docker run credocker/crephp:check20 /cre/php-test.sh   
 
       -
         name: Build and push
@@ -48,6 +48,6 @@ jobs:
         with:
           file: ./Dockerfile20
           push: true
-          tags: tamboraorg/crephp:2020.0, tamboraorg/crephp:latest 
+          tags: credocker/crephp:2020.0, credocker/crephp:latest 
       
 

@@ -1,6 +1,7 @@
 Todo:
 =====
 * ssmtp working -> maybe move to general container (ubuntu) DONE
+* https://binfalse.de/2020/02/17/migrating-from-ssmtp-to-msmtp/
 
 * Mail: ssmtp and/or postfix and/or exim
  fetchmail & procmail

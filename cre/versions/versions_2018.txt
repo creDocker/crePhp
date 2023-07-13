@@ -4,5 +4,6 @@ creBuild 	 2023.07
   OpenSSL 1.1.1  11 Sep 2018
   Java 	 openjdk version "1.8.0_362"
   Python3 	 Python 3.6.9
+   Flask 	 Flask 2.0.3
  crePhp 	 7.2 
   PHP 7.2.24-0ubuntu0.18.04.17 (cli) (built: Feb 23 2023 13:29:25) ( NTS )

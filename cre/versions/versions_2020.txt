@@ -1,9 +1,9 @@
-creBuild 	 2024.02
+creBuild 	 2024.03
  creUbuntu 	 20.04.6 LTS
   UbuntuName 	 focal
   OpenSSL 1.1.1f  31 Mar 2020
-  Java 	 openjdk version "11.0.21" 2023-10-17
+  Java 	 openjdk version "11.0.22" 2024-01-16
   Python3 	 Python 3.8.10
    Flask 	 Flask 3.0.2
  crePhp 	 7.4 
-  PHP 7.4.3-4ubuntu2.19 (cli) (built: Jun 27 2023 15:49:59) ( NTS )
+  PHP 7.4.3-4ubuntu2.20 (cli) (built: Feb 21 2024 13:54:34) ( NTS )

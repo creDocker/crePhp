@@ -4,6 +4,6 @@ creBuild 	 2024.04
   OpenSSL 1.1.1f  31 Mar 2020
   Java 	 openjdk version "11.0.22" 2024-01-16
   Python3 	 Python 3.8.10
-   Flask 	 Flask 3.0.2
+   Flask 	 Flask 3.0.3
  crePhp 	 7.4 
   PHP 7.4.3-4ubuntu2.20 (cli) (built: Feb 21 2024 13:54:34) ( NTS )

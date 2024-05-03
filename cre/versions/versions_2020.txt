@@ -1,4 +1,4 @@
-creBuild 	 2024.04
+creBuild 	 2024.05
  creUbuntu 	 20.04.6 LTS
   UbuntuName 	 focal
   OpenSSL 1.1.1f  31 Mar 2020
@@ -6,4 +6,4 @@ creBuild 	 2024.04
   Python3 	 Python 3.8.10
    Flask 	 Flask 3.0.3
  crePhp 	 7.4 
-  PHP 7.4.3-4ubuntu2.20 (cli) (built: Feb 21 2024 13:54:34) ( NTS )
+  PHP 7.4.3-4ubuntu2.22 (cli) (built: May  1 2024 10:11:33) ( NTS )

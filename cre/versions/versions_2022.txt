@@ -1,4 +1,4 @@
-creBuild 	 2024.04
+creBuild 	 2024.05
  creUbuntu 	 22.04.4 LTS
   UbuntuName 	 jammy
   OpenSSL 3.0.2 15 Mar 2022 (Library: OpenSSL 3.0.2 15 Mar 2022)
@@ -7,4 +7,4 @@ creBuild 	 2024.04
   Python3 	 Python 3.10.12
    Flask 	 
  crePhp 	 8.1 
-  PHP 8.1.2-1ubuntu2.15 (cli) (built: Feb 23 2024 17:26:53) (NTS)
+  PHP 8.1.2-1ubuntu2.17 (cli) (built: May  1 2024 10:10:07) (NTS)

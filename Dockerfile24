@@ -79,7 +79,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/share/doc/*
 
 # File permissions workaround
-RUN usermod -u 1000 www-data
+## RUN usermod -u 1000 www-data ## still needed for 2024? : usermod: UID '1000' already exists
 
 # PHP-FPM packages need a nudge to make them docker-friendly
 COPY /cre/overrides.conf /etc/php/$PHP_VERSION/fpm/pool.d/z-overrides.conf

@@ -6,4 +6,4 @@ creBuild 	 2024.12
   Python3 	 Python 3.8.10
    Flask 	 Flask 3.0.3
  crePhp 	 7.4 
-  PHP 7.4.3-4ubuntu2.24 (cli) (built: Sep 30 2024 18:16:20) ( NTS )
+  PHP 7.4.3-4ubuntu2.26 (cli) (built: Dec  4 2024 16:05:49) ( NTS )

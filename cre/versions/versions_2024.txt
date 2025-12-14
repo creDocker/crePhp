@@ -11,3 +11,4 @@ creBuild 	 2025.12
    Flask 	 
  crePhp 	 8.3 
   PHP 8.3.6 (cli) (built: Jul 14 2025 18:30:55) (NTS)
+  libpq5 	 Version: 16.11-0ubuntu0.24.04.1

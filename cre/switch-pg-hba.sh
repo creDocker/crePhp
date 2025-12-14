@@ -18,7 +18,11 @@ if [[ "$switchMode" = "close" ]]; then
     # copy closed file back
     cp -f $closeFile $configFile
     echo "[SUCCESS]: pg_hba gets closed."
-    chmod 000 /cre/www/dumps
+    if [ -e  /cre/www/tambora/web/db.dump.zip ]
+    then
+      chmod 000 /cre/www/tambora/web/db.dump.zip
+      rm -f /cre/www/tambora/web/db.dump.zip
+    fi
     exit 1
 fi
 
@@ -37,7 +41,11 @@ if [[ "$switchMode" =~ $ip4 ]]; then
     done <<< "$changeLines"
     cp -f $tmpOpen $configFile
     echo "[SUCCESS]: pg_hba gets opened."
-    chmod 666 /cre/www/dumps
+    if [ -e /cre/glue/db.dump.zip ]
+    then
+      ln -s /cre/glue/db.dump.zip /cre/www/tambora/web/db.dump.zip
+      chmod 666 /cre/www/tambora/web/db.dump.zip
+    fi
     exit 1
 fi
 

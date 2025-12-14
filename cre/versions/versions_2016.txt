@@ -6,3 +6,4 @@ creBuild 	 2025.12
   Python3 	 Python 3.5.2
  crePhp 	 7.0 
   PHP 7.0.33-0ubuntu0.16.04.16 (cli) ( NTS )
+  libpq5 	 Version: 10.1-1.pgdg16.04+1

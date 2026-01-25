@@ -7,7 +7,7 @@ creBuild 	 2026.01
   Python3 	 Python 3.12.3
    numpy 	 1.26.4
    scipy 	 1.11.4
-   pandas 	 2.3.3
+   pandas 	 3.0.0
    Flask 	 
  crePhp 	 8.3 
   PHP 8.3.6 (cli) (built: Jan  7 2026 08:40:32) (NTS)

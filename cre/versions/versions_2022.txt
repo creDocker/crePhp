@@ -10,4 +10,4 @@ creBuild 	 2026.05
    Flask 	 
  crePhp 	 8.1 
   PHP 8.1.2-1ubuntu2.23 (cli) (built: Jan  7 2026 08:37:41) (NTS)
-  libpq5 	 Version: 14.22-0ubuntu0.22.04.1
+  libpq5 	 Version: 14.23-0ubuntu0.22.04.1

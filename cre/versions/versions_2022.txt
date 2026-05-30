@@ -3,11 +3,11 @@ creBuild 	 2026.05
   UbuntuName 	 jammy
   OpenSSL 3.0.2 15 Mar 2022 (Library: OpenSSL 3.0.2 15 Mar 2022)
   msmtp version 1.8.16
-  Java 	 openjdk version "17.0.18" 2026-01-20
+  Java 	 openjdk version "17.0.19" 2026-04-21
   Python3 	 Python 3.10.12
    numpy 	 2.2.6
    pandas 	 2.3.3
    Flask 	 
  crePhp 	 8.1 
-  PHP 8.1.2-1ubuntu2.23 (cli) (built: Jan  7 2026 08:37:41) (NTS)
+  PHP 8.1.2-1ubuntu2.24 (cli) (built: May 25 2026 15:08:06) (NTS)
   libpq5 	 Version: 14.23-0ubuntu0.22.04.1

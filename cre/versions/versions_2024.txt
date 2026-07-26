@@ -8,8 +8,8 @@ creBuild 	 2026.07
    uv 	 
    uv2 	 
    numpy 	 2.5.1
-   pandas 	 3.0.3
+   pandas 	 3.0.5
    Flask 	 
  crePhp 	 8.3 
-  PHP 8.3.6 (cli) (built: May 25 2026 13:12:06) (NTS)
+  PHP 8.3.6 (cli) (built: Jul 16 2026 18:30:41) (NTS)
   libpq5 	 Version: 16.14-0ubuntu0.24.04.1

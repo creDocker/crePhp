@@ -28,6 +28,9 @@ https://www.rabbitmq.com/tutorials/tutorial-one-php.html
 
 
 https://dev.to/seppegadeyne/patching-php-56-to-81-for-php2shell-on-old-ubuntu-servers-by-rebuilding-runclouds-php-1bl7#use-our-builds-or-build-them-yourself
+https://itldc.com/en/blog/php2shell-patching-legacy-linux
+https://astra-it.at/blog/php-sicherheitsupdate-einspielen
+
 
 
 

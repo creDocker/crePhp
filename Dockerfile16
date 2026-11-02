@@ -100,8 +100,11 @@ RUN apt-get update \
 # RUN cd php2shell-runcloud-builds 
 # RUN ./build.sh xenial 70
 
-RUN apt update && apt upgrade php7.0 
-# php7.0-cgi php7.0-cli php7.0-fpm libapache2-mod-php7.0 
+# RUN apt update && apt upgrade php7.0 
+RUN apt-get update && apt-get upgrade php7.0
+# check: php7.0-cgi php7.0-cli php7.0-fpm libapache2-mod-php7.0 
+# ok:
+# fail:
 
 RUN echo "$(date +'%F %R') \t  $(php -version | head -n1)" >> /cre/versions.txt && \ 
     echo "$(date +'%F %R') \t  libpq5 \t $(dpkg-query --status libpq5 | grep Version)" >> /cre/versions.txt 

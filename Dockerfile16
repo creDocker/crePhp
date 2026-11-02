@@ -105,7 +105,7 @@ RUN apt-get update \
 RUN apt list php
 
 RUN apt-get update 
-RUN apt-get upgrade php7.0-cli
+RUN apt-get  -y upgrade php7.0 php7.0-cli
 
 # check: php7.0-cgi  php7.0-fpm libapache2-mod-php7.0 
 # ok:

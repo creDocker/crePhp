@@ -101,9 +101,18 @@ RUN apt-get update \
 # RUN ./build.sh xenial 70
 
 
-RUN apt-get update 
-RUN apt-get  -y upgrade php7.0 php7.0-cli php7.0-cgi  php7.0-fpm libapache2-mod-php7.0
+# PRO
+RUN apt-get update  && apt-get -y --no-install-recommends install ubuntu-pro-client
+RUN pro attach $UBUNTU_PRO_TOKEN
+RUN pro status
+RUN pro enable esm-infra
+#RUN pro enable esm-apps
+RUN apt-get -y upgrade
 RUN apt list | grep php
+
+## RUN apt-get update 
+## RUN apt-get  -y upgrade php7.0 php7.0-cli php7.0-cgi  php7.0-fpm libapache2-mod-php7.0
+## RUN apt list | grep php
 
 
 RUN echo "$(date +'%F %R') \t  $(php -version | head -n1)" >> /cre/versions.txt && \ 

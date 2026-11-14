@@ -11,6 +11,7 @@ MAINTAINER Michael Kahle <michael.kahle@yahoo.de>
 ARG BUILD_YEAR=2016
 ARG BUILD_MONTH=0
 ARG BUILD_TAG=latest
+ARG UBUNTU_PRO_TOKEN=""
 
 # Fixes some weird terminal issues such as broken clear / CTRL+L
 ENV TERM=linux
@@ -104,6 +105,7 @@ RUN apt-get update \
 # PRO
 RUN apt-get update  && apt-get -y --no-install-recommends install ubuntu-pro-client
 RUN pro status
+RUN env
 RUN echo "tk: $UBUNTU_PRO_TOKEN"
 RUN pro attach $UBUNTU_PRO_TOKEN
 RUN pro status

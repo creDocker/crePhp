@@ -14,8 +14,6 @@ on:
 jobs:
   docker:
     runs-on: ubuntu-latest
-    env:
-        UBUNTU_PRO_TOKEN: ${{ secrets.UBUNTU_PRO_TOKEN }}    
     steps:
       -
         name: Set up QEMU
@@ -36,7 +34,7 @@ jobs:
         with:
           file: ./Dockerfile16
           push: true
-          build-args: "UBUNTU_PRO_TOKEN=${{ secrets.UBUNTU_PRO_TOKEN }}"
+          # build-args: "UBUNTU_PRO_TOKEN=${{ secrets.UBUNTU_PRO_TOKEN }}"
           tags: credocker/crephp:check16
 
       -
@@ -50,7 +48,7 @@ jobs:
         with:
           file: ./Dockerfile16
           push: true
-          build-args: "UBUNTU_PRO_TOKEN=${{ secrets.UBUNTU_PRO_TOKEN }}"
+          # build-args: "UBUNTU_PRO_TOKEN=${{ secrets.UBUNTU_PRO_TOKEN }}"
           tags: credocker/crephp:2016.0 
 
            

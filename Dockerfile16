@@ -104,7 +104,7 @@ RUN apt-get update \
 RUN pro status
 RUN apt-get update 
 # https://ubuntu.com/security/notices/USN-8948-2  -> esm22!
-RUN apt-get  -y upgrade php7.0 php7.0-cli php7.0-cgi  php7.0-fpm libapache2-mod-php7.0
+RUN apt-get  -y upgrade php$PHP_VERSION php$PHP_VERSION-cli php$PHP_VERSION-cgi  php$PHP_VERSION-fpm libapache2-mod-php$PHP_VERSION
 RUN apt list | grep php
 
 

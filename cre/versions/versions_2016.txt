@@ -2,7 +2,7 @@ creBuild 	 2026.11
  creUbuntu 	 16.04.7 LTS
   UbuntuName 	 xenial
   OpenSSL 1.0.2g  1 Mar 2016
-  Java 	 openjdk version "1.8.0_292"
+  Java 	 openjdk version "1.8.0_482"
   Python3 	 Python 3.5.2
  crePhp 	 7.0 
   PHP 7.0.33-0ubuntu0.16.04.16+esm18 (cli) ( NTS )

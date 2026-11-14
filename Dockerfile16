@@ -109,7 +109,7 @@ RUN env
 RUN echo "tk: $UBUNTU_PRO_TOKEN"
 RUN pro attach $UBUNTU_PRO_TOKEN
 RUN pro status
-RUN pro enable esm-infra
+#RUN pro enable esm-infra
 #RUN pro enable esm-apps
 RUN apt-get -y upgrade
 RUN apt list | grep php

@@ -108,6 +108,8 @@ RUN pro status
 RUN env
 RUN echo "tk: $UBUNTU_PRO_TOKEN"
 RUN pro attach $UBUNTU_PRO_TOKEN
+ENV UBUNTU_PRO_TOKEN=
+RUN unset UBUNTU_PRO_TOKEN
 RUN pro status
 #RUN pro enable esm-infra
 #RUN pro enable esm-apps

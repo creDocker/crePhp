@@ -36,6 +36,7 @@ jobs:
         with:
           file: ./Dockerfile16
           push: true
+          build-args: "UBUNTU_PRO_TOKEN=${{ secrets.UBUNTU_PRO_TOKEN }}"
           tags: credocker/crephp:check16
 
       -

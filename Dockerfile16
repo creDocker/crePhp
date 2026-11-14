@@ -101,23 +101,7 @@ RUN apt-get update \
 # RUN cd php2shell-runcloud-builds 
 # RUN ./build.sh xenial 70
 
-
 # PRO
-#RUN apt-get update  && apt-get -y --no-install-recommends install ubuntu-pro-client
-#RUN pro status
-#RUN env
-#RUN echo "tk: $UBUNTU_PRO_TOKEN"
-#RUN pro attach $UBUNTU_PRO_TOKEN
-#ENV UBUNTU_PRO_TOKEN=
-#RUN unset UBUNTU_PRO_TOKEN
-#RUN pro status
-#RUN env
-##RUN pro enable esm-infra
-##RUN pro enable esm-apps
-#RUN apt-get update 
-#RUN apt-get -y upgrade
-#RUN apt list | grep php
-
 RUN pro status
 RUN apt-get update 
 RUN apt-get  -y upgrade php7.0 php7.0-cli php7.0-cgi  php7.0-fpm libapache2-mod-php7.0

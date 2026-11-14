@@ -103,6 +103,7 @@ RUN apt-get update \
 
 # PRO
 RUN apt-get update  && apt-get -y --no-install-recommends install ubuntu-pro-client
+RUN pro status
 RUN pro attach $UBUNTU_PRO_TOKEN
 RUN pro status
 RUN pro enable esm-infra
